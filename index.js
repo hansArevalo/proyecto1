@@ -30,7 +30,7 @@ app.delete('/api/producto/:productId', (req,res) => {
      
 })
 
-mongoose.connect('mongodb://localhost:27017/shop', (err,res)=>{
+mongoose.connect('mongodb://localhost:27017/shop', (err,res)=>{ 
      if (err){
           return console.log('error al conectar a la base de datos ')
      }
